@@ -39,6 +39,9 @@ High-value orders often combine **premium-priced items with popular staples**, r
         - Asian: 8 dishes, avg $13.48  
         - American: 6 dishes, avg $10.07  
     - Most populated category: Italian; Least populated: American  
+- **Visuals:**  
+    - `least_most_expensive_items.png` – Snapshot of items with min/max prices  
+    - `dishes_per_category_avg_price.png` – Overview of total dishes and average price per category  
 - **Insights:** Menu structure balances **popular cuisines and premium offerings**, setting the stage for strategic pricing and promotions.
 
 ---
@@ -50,6 +53,9 @@ High-value orders often combine **premium-priced items with popular staples**, r
     - Total unique orders: 5,370; total items ordered: 12,234  
     - Orders with most items: 14 items in orders 330, 440, 443, etc.  
     - Large orders (>12 items): 23  
+- **Visuals:**  
+    - `date_range_of_orders.png` – Snapshot of order date range  
+    - `orders_with_most_items.png` – Orders containing the highest number of items  
 - **Insights:**  
     - Average order contains 2–3 items, reflecting typical customer behavior  
     - Large orders, though rare, contribute disproportionately to revenue and are opportunities for **targeted promotions**  
@@ -63,6 +69,9 @@ High-value orders often combine **premium-priced items with popular staples**, r
     - **Top 5 orders by total spend:** Order 440 ($192.15), 2075 ($191.50), 1957 ($190.10), 330 ($189.70), 2675 ($185.10)  
     - **Highest spend order (ID 440):** Includes premium items like Spaghetti & Meatballs, Fettuccine Alfredo, Korean Beef Bowl, combined with popular staples  
     - **BONUS:** Top 5 highest spend orders follow similar patterns, combining premium and popular items  
+- **Visuals:**  
+    - `top_5_orders_by_total_spend.png` – Snapshot of the highest spend orders  
+    - `highest_spend_order_details.png` – Detailed items of top spend order (ID 440)  
 - **Insights:**  
     - High-value orders are diverse and multi-category  
     - Premium dishes drive revenue, highlighting **upselling and bundle opportunities**  
@@ -97,12 +106,3 @@ Open in MySQL Workbench or any SQL editor that supports `.sql` files.
 
 ---
 
-## 🚀 Next Steps
-This was my **first hands-on analytics project in SQL**, building on Excel foundations.  
-Next steps in my learning path include:  
-- **Power BI:** Interactive dashboards  
-- **Power BI Project:** Real-world dashboard implementation  
-- **Tableau:** Visual storytelling & analytics  
-- **Tableau Project:** Portfolio-ready dashboards  
-
-The goal: continue **expanding analytics skillset** while building a **practical, real-world project portfolio**.
