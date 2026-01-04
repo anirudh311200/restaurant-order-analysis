@@ -94,11 +94,6 @@ High-value orders often combine **premium-priced items with popular staples**, r
 
 ---
 
-## 🖼️ Full Visuals Gallery
-For a complete set of all SQL query screenshots (13 in total), including every query + result snippet, please see the [`visuals/`](visuals/) folder.
-
----
-
 ## 🛠️ Skills Demonstrated
 - SQL querying: joins, aggregations, group by, having, subqueries  
 - Data cleaning & preprocessing  
