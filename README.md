@@ -27,7 +27,7 @@ High-value orders often combine **premium-priced items with popular staples**, r
 
 ---
 
-## 🧩 Objective 1 – Explore the menu_items table
+## 🧩 Objective 1 – Explore the `menu_items` Table
 - **Method:** SQL queries analyzing menu composition, price distribution, and category breakdown  
 - **Key takeaways:**  
     - Total menu items: 32, providing a diverse selection of cuisines  
@@ -39,43 +39,58 @@ High-value orders often combine **premium-priced items with popular staples**, r
         - Asian: 8 dishes, avg $13.48  
         - American: 6 dishes, avg $10.07  
     - Most populated category: Italian; Least populated: American  
-- **Visuals:**  
-    - `least_most_expensive_items.png` – Snapshot of items with min/max prices  
-    - `dishes_per_category_avg_price.png` – Overview of total dishes and average price per category  
 - **Insights:** Menu structure balances **popular cuisines and premium offerings**, setting the stage for strategic pricing and promotions.
+
+**Visuals:**
+
+![Least & Most Expensive Items](visuals/least_most_expensive_items.png)  
+*Shows the cheapest and most expensive menu items.*
+
+![Dishes per Category & Average Price](visuals/dishes_per_category_avg_price.png)  
+*Overview of total dishes and average price per category.*
 
 ---
 
-## 🧩 Objective 2 – Explore the order_details table
+## 🧩 Objective 2 – Explore the `order_details` Table
 - **Method:** SQL queries analyzing order volume, item counts, and high-item orders  
 - **Key takeaways:**  
     - Dataset covers **Jan 1 – Mar 31, 2023**, a quarter’s worth of orders  
     - Total unique orders: 5,370; total items ordered: 12,234  
     - Orders with most items: 14 items in orders 330, 440, 443, etc.  
     - Large orders (>12 items): 23  
-- **Visuals:**  
-    - `date_range_of_orders.png` – Snapshot of order date range  
-    - `orders_with_most_items.png` – Orders containing the highest number of items  
 - **Insights:**  
     - Average order contains 2–3 items, reflecting typical customer behavior  
-    - Large orders, though rare, contribute disproportionately to revenue and are opportunities for **targeted promotions**  
+    - Large orders, though rare, contribute disproportionately to revenue and are opportunities for **targeted promotions**
+
+**Visuals:**
+
+![Date Range of Orders](visuals/date_range_of_orders.png)  
+*Snapshot showing the earliest and latest orders in the dataset.*
+
+![Orders with Most Items](visuals/orders_with_most_items.png)  
+*Highlights orders containing the highest number of items.*
 
 ---
 
-## 🧩 Objective 3 – Analyze customer behavior
+## 🧩 Objective 3 – Analyze Customer Behavior
 - **Method:** SQL joins between `menu_items` and `order_details` to assess popularity, spending, and order composition  
 - **Key takeaways:**  
     - **Most & least ordered items:** Hamburger (622), Chicken Tacos (123)  
     - **Top 5 orders by total spend:** Order 440 ($192.15), 2075 ($191.50), 1957 ($190.10), 330 ($189.70), 2675 ($185.10)  
     - **Highest spend order (ID 440):** Includes premium items like Spaghetti & Meatballs, Fettuccine Alfredo, Korean Beef Bowl, combined with popular staples  
     - **BONUS:** Top 5 highest spend orders follow similar patterns, combining premium and popular items  
-- **Visuals:**  
-    - `top_5_orders_by_total_spend.png` – Snapshot of the highest spend orders  
-    - `highest_spend_order_details.png` – Detailed items of top spend order (ID 440)  
 - **Insights:**  
     - High-value orders are diverse and multi-category  
     - Premium dishes drive revenue, highlighting **upselling and bundle opportunities**  
     - Data-driven insights can inform menu design, pricing, and marketing strategies
+
+**Visuals:**
+
+![Top 5 Orders by Total Spend](visuals/top_5_orders_by_total_spend.png)  
+*Displays the top 5 orders by total spend.*
+
+![Highest Spend Order Details](visuals/highest_spend_order_details.png)  
+*Detailed items in the highest spend order (ID 440).*
 
 ---
 
@@ -103,6 +118,3 @@ Dataset Source: Maven Analytics (Training dataset)
 ## 💾 How to View the Files
 The analysis lives in `restaurant_order_analysis.sql`.  
 Open in MySQL Workbench or any SQL editor that supports `.sql` files.
-
----
-
