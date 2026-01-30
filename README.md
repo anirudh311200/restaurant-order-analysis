@@ -12,7 +12,7 @@ The data reveals distinct preferences among customers:
 - **Most popular item:** **Hamburger (American)**, ordered **622 times**, reflecting strong customer affinity for classic, familiar options.  
 - **Least popular item:** **Chicken Tacos (Mexican)**, ordered **123 times**, suggesting niche menu items may benefit from **targeted promotion or bundling strategies**.  
 
-> Interpretation: Understanding these extremes allows restaurant management to focus on **high-demand items for revenue growth** while strategically promoting lower-performing dishes to maximize overall menu effectiveness.
+Interpretation: Understanding these extremes allows restaurant management to focus on **high-demand items for revenue growth** while strategically promoting lower-performing dishes to maximize overall menu effectiveness.
 
 ---
 
@@ -22,7 +22,7 @@ Examining item categories highlights broader menu performance trends:
 - **Top category by order volume:** American cuisine dominates orders, reinforcing **core menu strengths**.  
 - **Lowest category:** Mexican cuisine, indicating potential gaps in visibility or customer awareness.  
 
-> Interpretation: Identifying category-level preferences helps in **curating menu structure**, adjusting pricing, and designing category-specific marketing campaigns.
+Interpretation: Identifying category-level preferences helps in **curating menu structure**, adjusting pricing, and designing category-specific marketing campaigns.
 
 ---
 
@@ -36,7 +36,7 @@ Analysis of top spenders offers insight into **revenue drivers**:
   - Order ID 330: $189.70  
   - Order ID 2675: $185.10  
 
-> Observation: High-value orders typically combine **premium-priced items with popular staples**, showing opportunities to **upsell high-margin dishes**. These patterns can guide **bundling strategies** for maximum revenue impact.
+Observation: High-value orders typically combine **premium-priced items with popular staples**, showing opportunities to **upsell high-margin dishes**. These patterns can guide **bundling strategies** for maximum revenue impact.
 
 ---
 
@@ -60,7 +60,7 @@ Analysis of top spenders offers insight into **revenue drivers**:
 ![Dishes per Category & Average Price](visuals/dishes_per_category_avg_price.png)  
 *Overview of total items and average price per category, supporting menu optimization and strategic pricing.*
 
-> Interpretation: The menu strikes a **balance between high-demand items and premium offerings**, setting the stage for targeted promotions and strategic pricing decisions.
+Interpretation: The menu strikes a **balance between high-demand items and premium offerings**, setting the stage for targeted promotions and strategic pricing decisions.
 
 ---
 
@@ -80,7 +80,7 @@ Analysis of top spenders offers insight into **revenue drivers**:
 ![Orders with Most Items](visuals/orders_with_most_items.png)  
 *Orders containing the highest number of items, highlighting bulk purchase behavior and upselling opportunities.*
 
-> Interpretation: The average order includes 2–3 items, typical of individual customers, while **rare large orders** contribute disproportionately to revenue. Identifying these allows for **strategic promotions targeting high-value purchase behavior**.
+Interpretation: The average order includes 2–3 items, typical of individual customers, while **rare large orders** contribute disproportionately to revenue. Identifying these allows for **strategic promotions targeting high-value purchase behavior**.
 
 ---
 
@@ -100,14 +100,13 @@ Analysis of top spenders offers insight into **revenue drivers**:
 ![Highest Spend Order Details](visuals/highest_spend_order_details.png)  
 *Detailed item breakdown for the highest spend order, illustrating opportunities for strategic upselling.*
 
-> Interpretation: Insights from top spenders reveal **multi-category combinations** that drive revenue. These can inform **menu design, pricing strategies, and promotional bundles** to maximize profitability.
+Interpretation: Insights from top spenders reveal **multi-category combinations** that drive revenue. These can inform **menu design, pricing strategies, and promotional bundles** to maximize profitability.
 
 ---
 
 ## 🖼️ Full Visuals Gallery
 For a complete set of all SQL query screenshots, including every query and result snippet, please see the [`visuals/`](visuals/) folder in this repository.  
-
-> Each file is clearly labeled for **easy navigation and reference**, supporting fast comprehension and review.
+Each file is clearly labeled for **easy navigation and reference**, supporting fast comprehension and review.
 
 ---
 
